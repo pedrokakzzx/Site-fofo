@@ -4,7 +4,7 @@ function login() {
     var username = document.getElementById('username').value;
     var password = document.getElementById('password').value;
 
-    if (username === 'yanna' && password === '23062010') {
+    if (username === 'yanne' && password === '23062010') {
         document.getElementById('sucess-message').innerText = "Logado com sucesso"
         window.location.href = 'site.html';
         setTimeout(function(){
